@@ -1,5 +1,5 @@
-package interfaceSegregation
-
-trait CoffeeMaker {
-  def makeCoffee(): Unit
-}
+//package interfaceSegregation
+//
+//trait CoffeeMaker {
+//  def makeCoffee(): Unit
+//}

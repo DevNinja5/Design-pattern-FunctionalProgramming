@@ -1,5 +1,5 @@
-package interfaceSegregation
-
-trait CoffeeServer {
-  def serveCoffee(): Unit
-}
+//package interfaceSegregation
+//
+//trait CoffeeServer {
+//  def serveCoffee(): Unit
+//}

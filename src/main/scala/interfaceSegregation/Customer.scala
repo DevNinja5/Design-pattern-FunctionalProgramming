@@ -1,21 +1,17 @@
 package interfaceSegregation
 
-class Customer extends DrinkCoffee {
-  override def drinkCoffee(): Unit = {
+class Customer {
+  def drinkCoffee(): Unit = {
     println("drinking coffee")
   }
-  def payBill(bill:Int): Unit ={
-    println("Bill paid of "+bill)
+  def payBill(amount:Int): Unit ={
+    println("Bill paid of total: "+amount)
   }
 }
 
 object Main extends App{
+  val shop = new CoffeeShop
   val rahul = new Customer
-  val cup = new CoffeeShop
-  cup.makeCoffee()
-  val server = new Server()
-  server.serveCoffee()
-  rahul.drinkCoffee()
-  val bill = new Bill(100)
-  rahul.payBill(bill.makeBill())
+  val cup: Int = shop.coffeeServer("cappuccino",100,shop.coffeeMaker)
+  rahul.payBill(cup)
 }

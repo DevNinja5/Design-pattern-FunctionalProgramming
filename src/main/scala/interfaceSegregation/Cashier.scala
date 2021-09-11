@@ -1,5 +1,5 @@
-package interfaceSegregation
-
-trait Cashier {
-  def makeBill(): Int
-}
+//package interfaceSegregation
+//
+//trait Cashier {
+//  def makeBill(): Int
+//}

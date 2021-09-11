@@ -15,7 +15,6 @@ class CoffeeShop {
     println("Freshly grinded and filtered....")
     "Here is your "+coffee+" coffee"
   }
-
 }
 
 object Main extends App{
