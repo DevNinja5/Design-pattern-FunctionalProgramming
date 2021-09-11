@@ -1,7 +1,5 @@
 package interfaceSegregation
 
-import jdk.jfr.DataAmount
-
 class CoffeeShop{
   def bill(amount:Int): Unit ={
     println("Your bill is of : "+amount+"/- only.")
